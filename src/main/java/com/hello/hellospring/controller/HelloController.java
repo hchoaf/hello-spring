@@ -41,9 +41,6 @@ public class HelloController {
 
         private String name;
 
-        private static String age = "30";
-        private String hell = "hell";
-
         public String getName() {
             return name;
         }
