@@ -4,7 +4,7 @@ import com.hello.hellospring.domain.Member;
 
 import java.util.*;
 
-class MemoryMemberRepository implements MemberRepository{
+public class MemoryMemberRepository implements MemberRepository{
     private static Map<Long, Member> memberStorage = new HashMap<>();
     private static long sequence = 0L;
 
